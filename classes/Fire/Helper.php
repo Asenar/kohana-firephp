@@ -126,4 +126,15 @@ abstract class Fire_Helper {
 	{
 		return FirePHP::getInstance()->fb($object);
 	}
+
+	public static function group($name, $options = array())
+	{
+		return FirePHP::getInstance()->group($name, $options);
+	}
+
+	public static function groupEnd()
+	{
+		return FirePHP::getInstance()->groupEnd();
+	}
+
 }
