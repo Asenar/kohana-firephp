@@ -137,4 +137,11 @@ abstract class Fire_Helper {
 		return FirePHP::getInstance()->groupEnd();
 	}
 
+    public static function enable($enable = null) {
+        if (is_null($enable)) {
+            return FirePHP::getInstance()->getEnabled();
+        }
+		return FirePHP::getInstance()->setEnabled($enabled);
+    }
+
 }
