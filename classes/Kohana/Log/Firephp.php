@@ -10,7 +10,7 @@
  * @author		Mathew Davies <github.com/ThePixelDeveloper>
  * @version		1.0.0.
  */
-class Kohana_Fire_Log_Writer extends Fire_Log_Writer {
+class Kohana_Log_Firephp extends Log_Writer {
 
 	/**
 	 * @var	FirePHP

@@ -8,7 +8,7 @@
  * @author		Mathew Davies <github.com/ThePixelDeveloper>
  * @version		1.0.0.
  */
-abstract class Kohana_Fire_Helper {
+abstract class Kohana_Fire {
 
 	/**
 	 * Log object with label to firebug console

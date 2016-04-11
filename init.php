@@ -24,7 +24,7 @@ if (!class_exists('FirePHP', false))
 // copy config/firephp.php to application/config/[env]/firephp.php
 // and enable it from the configuration or calling Fire::enable(true);
 $config = (array)Kohana::$config->load('firephp');
-$fire_logger = new Fire_Log($config);
+$fire_logger = new Log_Firephp($config);
 
 // Attach a Fire_Log writer to Kohana
 Kohana::$log->attach($fire_logger);
